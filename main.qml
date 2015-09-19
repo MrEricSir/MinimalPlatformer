@@ -102,7 +102,7 @@ ApplicationWindow {
         }
 
         function pushDirection(dir) {
-            directionStack.push(dir);
+            directionStack.unshift(dir);
         }
 
         function removeDirection(dir) {
